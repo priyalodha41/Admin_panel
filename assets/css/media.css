@@ -55,6 +55,11 @@
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}      
 }
+@media(max-width:992px){
+    .header-right-display{
+        display: none;
+    }
+} 
 @media (min-width:1280px){
     .col-xl-1 {width: 8.33%;}
     .col-xl-2 {width: 16.66%;}
