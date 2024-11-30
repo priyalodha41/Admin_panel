@@ -688,6 +688,8 @@ table .fourth-layer-head tr,.fourth-layer-head-1 tr{
 table {
     width: 100%;
     border-collapse: collapse !important;
+    overflow:auto;
+    white-space: no-wrap;
 }
 .fourth-layer-body img,.fourth-layer-body-1 img{
     width: 2rem;
@@ -969,10 +971,10 @@ body.dark-theme .hovering:hover .updated-hover-color{
 }
 .cursor-pointer{
     cursor: pointer;
-    /* overflow-y:scroll; */
+    overflow-y:scroll;
     height: 300px;
     /* overflow-x:hidden; */
-    overflow: auto;
+    /* overflow: auto; */
     max-width: 100%; 
 }
 .third-layer-first-part svg{
@@ -1369,7 +1371,6 @@ background-image: linear-gradient(to left, var(--tw-gradient-stops));
 .down-part a{
     text-decoration:underline;
 }
-table{
-    overflow:auto;
-    white-space: no-wrap;
+.table-responsive{
+    overflow: auto;
 }
