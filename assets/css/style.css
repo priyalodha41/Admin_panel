@@ -969,9 +969,10 @@ body.dark-theme .hovering:hover .updated-hover-color{
 }
 .cursor-pointer{
     cursor: pointer;
-    overflow-y:scroll;
+    /* overflow-y:scroll; */
     height: 300px;
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
+    overflow: auto;
     max-width: 100%; 
 }
 .third-layer-first-part svg{
@@ -1367,4 +1368,8 @@ background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
 .down-part a{
     text-decoration:underline;
+}
+table{
+    overflow:auto;
+    white-space: no-wrap;
 }
