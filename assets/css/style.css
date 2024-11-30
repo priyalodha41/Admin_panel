@@ -1181,7 +1181,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
  }
  .maps{
     position: relative;
-    background-image: url(/assets/images/map.png);
+    background-image: url(./assets/images/map.png);
     background-size: cover;
     min-height: 100vh;
     background-repeat: no-repeat;
